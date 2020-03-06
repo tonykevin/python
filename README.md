@@ -4,7 +4,7 @@ Project for learning the language *Python*
 
 ## Numbers
 
-### Operators
+### Features
 
 | Operators      | Symbol | Example  | Output               |
 | -------------- | ------ | -------- | -------------------- |
@@ -27,3 +27,88 @@ math.sqrt(9)
 # Round
 math.ceil(1.739)
 ```
+
+
+
+## Strings
+
+### Features
+
+It is defined using single and double quotes.
+
+```python
+'Polar bears live in "antarctica"'
+"The city of 'Cusco' is majestic"
+```
+
+In a string you can include special characters(`\t`, `\n`, etc.)
+
+> Print: function to display data in the terminal.
+
+```python
+print('Hello\nworld')
+```
+
+```bash
+Hello
+world
+```
+
+it can also define a string in multiple lines and include special characters with: `"""`
+
+```python
+"""
+universe
+	Earth
+		plants	animals
+"""
+```
+
+This is stored as:
+
+```python
+'\nuniverse\n\tearth\n\t\tplants\tanimals'
+```
+
+The result on the screen with `print` is:
+
+```bash
+universe
+	Earth
+		plants	animals
+```
+
+### Options
+
+Can addition and multiply strings using symbols: `+` and `*`.
+
+```python
+# Addition
+'Pacific' + 'ocean'
+# output
+'Pacific ocean'
+```
+
+```python
+# Multiply
+'Hi!'*3
+# output
+'Hi!Hi!Hi!'
+```
+
+Escape the special characters use: `\`.
+
+```python
+print('Hello\\nworld')
+# output
+'Hello\nworld'
+```
+
+Store the raw string it can use: `r`.
+
+```python
+print(r'\route\tasks\new')
+# output
+'\route\tasks\new'
+```
+
