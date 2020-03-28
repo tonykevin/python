@@ -1,6 +1,6 @@
 # Python
 
-Project for learning the language *Python*
+Learning the language *Python*
 
 ## Numbers
 
