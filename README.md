@@ -112,3 +112,6 @@ print(r'\route\tasks\new')
 '\route\tasks\new'
 ```
 
+## License
+
+[MIT](./LICENSE)
